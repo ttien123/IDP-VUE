@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: ['Roboto', "sans-serif"],
+        GrandH: ['"Grand Hotel"', "cursive"],
+        Poppins: ['"Poppins"', "sans-serif"],
+      },
+      backgroundImage: {
+        bgOverlay: 'url("src/assets/img/bg-overlay.jpg")',
+      }
+    },
   },
   plugins: [],
 }
