@@ -1,6 +1,6 @@
 const name = {
     home: 'home',
-    signUp: 'signup',
+    register: 'register',
     login: 'login',
 } as const;
 

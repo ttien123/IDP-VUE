@@ -29,3 +29,7 @@
     background-size: 200% auto;
     border-radius: 999px;
 }
+
+.btnPrimary:hover {
+    background-position: right center;
+}
