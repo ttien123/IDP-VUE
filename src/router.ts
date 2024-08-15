@@ -3,6 +3,7 @@ import Login from './pages/Auth/login/Login.vue';
 import path from './constants/path';
 import name from './constants/name';
 import Home from './pages/UserPage/home/Home.vue';
+import Register from './pages/Auth/register/Register.vue';
 
 const routes = [
     {
@@ -11,10 +12,16 @@ const routes = [
         component: Home,
     },
     {
+        path: path.register,
+        name: name.register,
+        component: Register,
+    },
+    {
         path: path.login,
         name: name.login,
         component: Login,
     },
+    
 ];
 
 const router = createRouter({
