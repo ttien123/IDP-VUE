@@ -1,17 +1,31 @@
 @tailwind base;
+@tailwind components;
 
 @layer base {
     body {
         @apply font-roboto;
     }
-    h4 {
-        @apply text-2xl;
-    }
+}
 
-    h3 {
-        @apply text-3xl;
-    }
-    h1 {
-        @apply text-5xl font-bold;
-    }
+
+.textPrimary {
+    background: linear-gradient(to right, #fc2547 50%, #ff5a00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btnPrimary {
+    border: solid 1px #fc2547;
+    color: #FFFFFF !important;
+    font-weight: 700;
+    padding: 10px 35px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: hidden;
+    transition: .8s ease;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #fc2547 0%, #ff5a00 50%, #fc2547 100%);
+    background-size: 200% auto;
+    border-radius: 999px;
 }

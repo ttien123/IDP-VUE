@@ -8,8 +8,12 @@ export default {
     extend: {
       fontFamily: {
         roboto: ['Roboto', "sans-serif"],
-        GrandH: ['"Grand Hotel"', "sans-serif"],
+        GrandH: ['"Grand Hotel"', "cursive"],
+        Poppins: ['"Poppins"', "sans-serif"],
       },
+      backgroundImage: {
+        bgOverlay: 'url("src/assets/img/bg-overlay.jpg")',
+      }
     },
   },
   plugins: [],
