@@ -4,12 +4,19 @@ import path from './constants/path';
 import name from './constants/name';
 import Home from './pages/UserPage/home/Home.vue';
 import Register from './pages/Auth/register/Register.vue';
+import UserLayout from './layouts/UserLayout.vue';
 
 const routes = [
     {
         path: path.home,
-        name: name.home,
-        component: Home,
+        component: UserLayout,
+        children: [
+            {
+                path: '',
+                name: name.home,
+                component: Home
+            }
+        ]
     },
     {
         path: path.register,

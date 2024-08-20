@@ -7,6 +7,13 @@
     }
 }
 
+@layer components {
+    .maxContent {
+        @apply w-full sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] mx-auto px-4;
+    }
+}
+
+
 
 .textPrimary {
     background: linear-gradient(to right, #fc2547 50%, #ff5a00 100%);
@@ -32,4 +39,16 @@
 
 .btnPrimary:hover {
     background-position: right center;
+}
+
+.swiper-pagination-bullet {
+    width: 14px !important;
+    height: 14px !important;
+    padding: 4px !important;
+    background: transparent !important;
+    border: 2px solid white !important;
+    opacity: 100% !important;
+}
+.swiper-pagination-bullet-active{
+ background: white !important;
 }

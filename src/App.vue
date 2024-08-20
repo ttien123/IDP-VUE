@@ -14,7 +14,7 @@
 </template>
 
 <style scoped>
-   .slide-enter-active,
+    .slide-enter-active,
     .slide-leave-active {
         transition: opacity 0.5s ease;
     }
