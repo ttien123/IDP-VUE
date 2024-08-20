@@ -13,6 +13,7 @@ export default {
       },
       backgroundImage: {
         bgOverlay: 'url("src/assets/img/bg-overlay.jpg")',
+        bgSlider: 'url("src/assets/img/test-banner.jpg")',
       }
     },
   },

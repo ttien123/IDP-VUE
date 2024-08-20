@@ -40,3 +40,15 @@
 .btnPrimary:hover {
     background-position: right center;
 }
+
+.swiper-pagination-bullet {
+    width: 14px !important;
+    height: 14px !important;
+    padding: 4px !important;
+    background: transparent !important;
+    border: 2px solid white !important;
+    opacity: 100% !important;
+}
+.swiper-pagination-bullet-active{
+ background: white !important;
+}

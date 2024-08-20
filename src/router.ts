@@ -6,16 +6,13 @@ import Home from './pages/UserPage/home/Home.vue';
 import Register from './pages/Auth/register/Register.vue';
 import UserLayout from './layouts/UserLayout.vue';
 
-
-
 const routes = [
     {
-        path: '',
-        name: '',
+        path: path.home,
         component: UserLayout,
         children: [
             {
-                path: path.home,
+                path: '',
                 name: name.home,
                 component: Home
             }
