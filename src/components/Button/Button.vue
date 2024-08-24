@@ -1,17 +1,14 @@
 <script setup lang="ts">
 interface Props {
-    extendClass?: string;
+  extendClass?: string;
 }
-const {extendClass} = defineProps<Props>()
+const { extendClass } = defineProps<Props>();
 </script>
 
 <template>
-    <button :class="['btnPrimary', extendClass]">
-        <slot />
-    </button>
+  <button :class="['btnPrimary', extendClass]">
+    <slot />
+  </button>
 </template>
 
-
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
