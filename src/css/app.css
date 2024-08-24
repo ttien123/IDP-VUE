@@ -2,53 +2,56 @@
 @tailwind components;
 
 @layer base {
-    body {
-        @apply font-roboto;
-    }
+  body {
+    @apply font-roboto;
+  }
 }
 
 @layer components {
-    .maxContent {
-        @apply w-full sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] mx-auto px-4;
-    }
+  .maxContent {
+    @apply w-full sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] mx-auto px-4;
+  }
 }
-
-
 
 .textPrimary {
-    background: linear-gradient(to right, #fc2547 50%, #ff5a00 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #fc2547 50%, #ff5a00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .btnPrimary {
-    border: solid 1px #fc2547;
-    color: #FFFFFF !important;
-    font-weight: 700;
-    padding: 10px 35px;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    overflow: hidden;
-    transition: .8s ease;
-    text-decoration: none;
-    background-image: linear-gradient(to right, #fc2547 0%, #ff5a00 50%, #fc2547 100%);
-    background-size: 200% auto;
-    border-radius: 999px;
+  border: solid 1px #fc2547;
+  color: #ffffff !important;
+  font-weight: 700;
+  padding: 10px 35px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.8s ease;
+  text-decoration: none;
+  background-image: linear-gradient(
+    to right,
+    #fc2547 0%,
+    #ff5a00 50%,
+    #fc2547 100%
+  );
+  background-size: 200% auto;
+  border-radius: 999px;
 }
 
 .btnPrimary:hover {
-    background-position: right center;
+  background-position: right center;
 }
 
 .swiper-pagination-bullet {
-    width: 14px !important;
-    height: 14px !important;
-    padding: 4px !important;
-    background: transparent !important;
-    border: 2px solid white !important;
-    opacity: 100% !important;
+  width: 14px !important;
+  height: 14px !important;
+  padding: 4px !important;
+  background: transparent !important;
+  border: 2px solid white !important;
+  opacity: 100% !important;
 }
-.swiper-pagination-bullet-active{
- background: white !important;
+.swiper-pagination-bullet-active {
+  background: white !important;
 }
