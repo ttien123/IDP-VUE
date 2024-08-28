@@ -1,9 +1,12 @@
-<script setup lang="ts"></script>
-
+<script setup lang="ts">
+const scrollToTop = () => {
+  window.scrollTo(0, 0);
+};
+</script>
 <template>
   <div class="min-h-screen bg-bgOverlay overflow-hidden">
     <RouterView v-slot="{ Component }">
-      <transition name="slide" mode="out-in">
+      <transition @after-leave="scrollToTop" name="slide" mode="out-in">
         <component :is="Component" :key="$route.path"></component>
       </transition>
     </RouterView>
