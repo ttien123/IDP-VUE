@@ -48,9 +48,9 @@ const listProductChoice = [
     class="bg-bgHeader fixed top-0 left-0 right-0 z-50 shadow-shadowHeader"
   >
     <div class="maxContent flex items-center py-4">
-      <button v-scroll-to="'#main'" class="w-1/4">
-        <img :src="logo" alt="logo" />
-      </button>
+      <div class="w-1/4">
+        <img :src="logo" alt="logo" v-scroll-to="'#main'" class="cursor-pointer"/>
+      </div>
       <div class="flex-1">
         <div class="hidden lg:block"><Navbar /></div>
       </div>

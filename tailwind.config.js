@@ -18,6 +18,21 @@ export default {
                 shadowHeader: '0 10px 10px -10px rgba(0, 0, 0, 0.35)',
                 shadowDropdown: '0 12px 24px 0 rgba(0, 0, 0, 0.3)',
             },
+            keyframes: {
+                dropDownHeaderScroll: {
+                    '0%': { transform: 'translateY(-100%)' },
+                    '100%': { transform: 'translateY(0%)' },
+                },
+
+                opacitySearch: {
+                    '0%': { opacity: '0' },
+                    '100%': { transform: '1' },
+                },
+            },
+            animation: {
+                dropDownHeaderScroll: 'dropDownHeaderScroll 0.5s linear forwards',
+                opacitySearch: 'opacitySearch 0.25s ease forwards',
+            },
         },
     },
     plugins: [],
