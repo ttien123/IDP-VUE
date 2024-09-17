@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import BrushIcon from "src/assets/icons/BrushIcon.vue";
-import FacebookIcon from "src/assets/icons/FacebookIcon.vue";
 import StarIcon from "src/assets/icons/StarIcon.vue";
 import item1 from "src/assets/img/item1.png";
 import item2 from "src/assets/img/item2.png";
@@ -52,12 +51,16 @@ const data: Idata[] = [
   <section class="py-[120px] bg-[#191919]">
     <div class="maxContent">
       <div>
-        <div class="textPrimary text-[20px] font-light mb-2 text-center lg:text-left">
+        <div
+          class="textPrimary text-[20px] font-light mb-2 text-center lg:text-left"
+        >
           Basic info about online food.
         </div>
         <div class="flex items-center justify-between flex-col lg:flex-row">
           <div class="lg:w-1/2 font-GrandH text-[72px] font-normal text-white">
-            <div class="lg:w-[70%] text-center lg:text-left mb-4 lg:mb-0">delicious food is our aim.</div>
+            <div class="lg:w-[70%] text-center lg:text-left mb-4 lg:mb-0">
+              delicious food is our aim.
+            </div>
           </div>
           <div class="lg:w-1/2 grid grid-cols-3">
             <div>
@@ -90,9 +93,11 @@ const data: Idata[] = [
           </div>
         </div>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] pt-[120px]">
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] pt-[120px]"
+      >
         <div v-for="(item, index) in data" :key="index">
-          <img :src="item.src" alt="image" class="block w-full">
+          <img :src="item.src" alt="image" class="block w-full" />
           <div class="flex items-center justify-between">
             <div class="text-[18px] my-2">
               {{ item.name }}

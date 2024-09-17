@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Banner from "./components/Banner/Banner.vue";
+import Footer from "./components/Footer/Footer.vue";
 import ListProduct from "./components/ListProduct/ListProduct.vue";
 import Slider from "./components/Slider/Slider.vue";
 </script>
@@ -9,6 +10,7 @@ import Slider from "./components/Slider/Slider.vue";
     <Banner />
     <ListProduct />
     <Slider />
+    <Footer />
   </div>
 </template>
 
