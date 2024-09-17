@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import Banner from "./components/Banner/Banner.vue";
+import ListProduct from "./components/ListProduct/ListProduct.vue";
 import Slider from "./components/Slider/Slider.vue";
 </script>
 
 <template>
   <div>
     <Banner />
+    <ListProduct />
     <Slider />
   </div>
 </template>

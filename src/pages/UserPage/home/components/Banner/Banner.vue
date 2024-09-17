@@ -14,10 +14,10 @@ onMounted(() => {
 
 <template>
   <section class="h-screen flex items-center justify-center pt-[75px] relative">
-    <div class="absolute top-[25%] left-[2%] 2xl:left-[10%]">
+    <div class="hidden lg:block absolute top-[25%] left-[2%] 2xl:left-[10%]">
       <img :src="imgEle1" alt="img">
     </div>
-    <div class="absolute top-[68%] left-0 w-[199px] h-[270px]">
+    <div class="hidden lg:block absolute top-[68%] left-0 w-[199px] h-[270px]">
       <img :src="imgEle4" alt="img">
     </div>
     <div class="w-[580px] mt-[-200px]">
@@ -27,10 +27,10 @@ onMounted(() => {
       </div>
       <p class="text-[15px] opacity-70 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo, sem magna.</p>
     </div>
-    <div class="absolute top-[26%] -right-[15%] 2xl:-right-[2%] w-[545px] h-[498px]">
+    <div class="hidden lg:block absolute top-[26%] -right-[15%] 2xl:-right-[2%] w-[545px] h-[498px]">
       <img :src="imgEle5" alt="img">
     </div>
-    <div class="absolute top-[28%] -right-[15%] 2xl:-right-[10%] w-[545px] h-[498px]">
+    <div class="hidden lg:block absolute top-[28%] -right-[15%] 2xl:-right-[10%] w-[545px] h-[498px]">
       <img :src="imgEle3" alt="img">
     </div>
   </section>
