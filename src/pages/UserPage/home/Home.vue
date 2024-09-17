@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import Slider from "src/components/Slider/Slider.vue";
+import Banner from "./components/Banner/Banner.vue";
+import Slider from "./components/Slider/Slider.vue";
 </script>
 
 <template>
-  <div class="h-[5000px] py-[200px]">
+  <div>
+    <Banner />
     <Slider />
   </div>
 </template>
