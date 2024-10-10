@@ -7,7 +7,7 @@ import Input from "src/components/Input/Input.vue";
 import path from "src/constants/path";
 import { AuthSchema, authSchema } from "src/utils/rules";
 import { useForm } from "vee-validate";
-import { onMounted, onUnmounted, ref } from "vue";
+import { onMounted, ref } from "vue";
 
 export type FormData = Pick<AuthSchema, "email" | "password">;
 const loginSchema = authSchema.pick(["email", "password"]);

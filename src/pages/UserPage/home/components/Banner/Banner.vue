@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Parallax from "parallax-js";
 import { onMounted } from "vue";
 import imgEle1 from 'src/assets/img/slider-ele1.png'
 import imgEle3 from 'src/assets/img/slider-ele3.png'
